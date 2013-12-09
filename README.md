@@ -9,25 +9,7 @@ Set up environment
         $ pip install -r requirements.txt
 
 
-Run tests
----------
+Find out what you can do with this project
+------------------------------------------
 
-        $ nosetests
-
-
-Check syntax
-------------
-
-        $ flake8 .
-
-
-Run tests continuously
-----------------------
-
-        $ sniffer
-
-
-Start web server
-----------------
-
-        $ python webapp.py
+        $ invoke --list
