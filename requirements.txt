@@ -10,3 +10,8 @@ sniffer==0.3.2
 colorama==0.2.7
 python-termstyle==0.1.10
 MacFSEvents==0.3
+
+flake8==2.1.0
+pyflakes==0.7.3
+pep8==1.4.6
+mccabe==0.2.1

@@ -15,6 +15,12 @@ Run tests
         $ nosetests
 
 
+Check syntax
+------------
+
+        $ flake8 .
+
+
 Run tests continuously
 ----------------------
 
