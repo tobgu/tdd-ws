@@ -12,7 +12,11 @@ Pygments==1.6
 sniffer==0.3.2
 colorama==0.2.7
 python-termstyle==0.1.10
-MacFSEvents==0.3
+MacFSEvents==0.3  # Mac OS X specific dependency
+
+# Mac OS X specific dependencies
+nosegrowl2==0.3
+gntplib==0.5
 
 flake8==2.1.0
 pyflakes==0.7.3
