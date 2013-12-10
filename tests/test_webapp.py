@@ -1,10 +1,7 @@
-import unittest
 from webapp import app
 
 
-class TestWebApp(unittest.TestCase):
-
-    def test_it_can_serve_HTTP(self):
-        browser = app.test_client()
-        response = browser.get('/')
-        self.assertEqual(response.status_code, 200)
+def test_it_can_serve_HTTP():
+    browser = app.test_client()
+    response = browser.get('/')
+    assert response.status_code == 200
