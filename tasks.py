@@ -3,7 +3,7 @@ from invoke import task, run
 
 @task
 def clean():
-    run('rm -rf *.pyc')
+    run("find . -name '*.pyc' -delete")
 
 
 @task
@@ -21,4 +21,4 @@ def tests(continuously=False):
 
 @task
 def webapp():
-    run('python webapp.py')
+    run('python src/webapp.py')
